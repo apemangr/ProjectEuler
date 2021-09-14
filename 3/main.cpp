@@ -30,3 +30,4 @@ int isPrime(int x)
     }
   return d;
 }
+
