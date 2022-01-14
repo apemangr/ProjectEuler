@@ -21,6 +21,7 @@ int main()
 	sum+=i;
     }
   }
+  
     cout<<"Result \n~~~~~> "<<sum<<"\n";
   // int p,q,r,first,second;
   //   for (int n=2; n<5; n++) {

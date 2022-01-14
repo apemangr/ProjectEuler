@@ -1,0 +1,45 @@
+
+-> Los primos siempre terminan en 1, 7, 9 todos los demas pueden variar
+
+-> Crear un vector con numeros primos hasta 90000 (Sieve)
+
+-> Probar con los digitos (2,3), (2,4) y (3,4)
+
+
+POSIBLE ALGORITMO
+
+1. [x] Crear un vector llamado "primes" con numeros primos hasta 90000 (Sieve)
+
+2. [x] Iterar por el vector "primes"
+
+3. [x] Tomar el elemento del vector segun el indice y convertirlo a tipo "string"
+
+4. Cambiar los digitos (2,3), concatenar los digitos y convertir la string en entero e iterar de 0 hasta 9
+
+5. Repetir el paso 4 con los digitos (2,4) y (3,4)
+
+6. Si el numero luego de remplazar los digitos y ser concatenado es primo, entonces aumentar la variable "primeCount"
+
+7. Verificar si "primeCount" es mayor que la variable "answer", si es asi igual "answer" a "primeCount"
+
+8. Imprimir "answer"
+
+
+(2,3) V
+(2,4) 
+(2,5) 
+(3,4) 
+(3,5) 
+(4,5) 
+(1,2) 
+(1,3) 
+(1,4) 
+(1,5) 
+
+Posibles 
+1 y 3 no
+1 y 5 no
+4 y 6 no
+3 y 5 
+
+
