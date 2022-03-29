@@ -13,6 +13,6 @@ int main()
       sumSquares += pow(i,2);
     }
   squaresSums=pow(squaresSums,2);
-  cout<<" "<<squaresSums<<" - "<<sumSquares<<" = "<<squaresSums-sumSquares;
-
+  cout<<" "<<squaresSums<<" - "<<sumSquares<<" = "<<squaresSums-sumSquares<<endl;
+  return 0;
 }

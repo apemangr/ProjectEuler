@@ -1,4 +1,5 @@
-#include<bits/stdc++.h>
+#include <iostream>
+#include <math.h>
 using namespace std;
  
 
@@ -16,7 +17,6 @@ long long nDigits(long long n)
 
 int main()
 {
-  fo
     long long i;
     for (i = 1; nDigits(i)<=1000; i++)
     cout << "Number of Digits in F("
